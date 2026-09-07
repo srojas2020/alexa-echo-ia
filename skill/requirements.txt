@@ -1,0 +1,11 @@
+# NO agregar nada acá.
+#
+# La skill habla con Groq usando urllib, que viene en la stdlib de Python.
+# Esto es deliberado: en Alexa-hosted, cada paquete que se agrega es un build
+# que puede fallar, y un build que falla deja la skill muerta sin aviso claro.
+#
+# En la consola de Alexa este archivo ya viene con estas dos líneas.
+# Dejarlas como estén — las versiones las fija Amazon y cambian con el tiempo.
+
+ask-sdk-core==1.11.0
+boto3==1.9.216
